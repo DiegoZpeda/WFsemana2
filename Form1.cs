@@ -17,16 +17,27 @@ namespace WFsemana2
             InitializeComponent();
         }
 
-        private void BtnMostrar_Click(object sender, EventArgs e)
+        private void BtnMostrar_Click_1(object sender, EventArgs e)
         {
+            label1.Visible = true;
+            label2.Visible = true;
+            label3.Visible = true;
+            label4.Visible = true;
+            label5.Visible = true;
+            label6.Visible = true;
+
             label1.Text = "CHRISTIAN ALEXANDER MONTENEGRO RODRÍGUEZ USTS023419";
             label2.Text = "NILDERSON ALEXIS CHÁVEZ BARAHONA USSS012222";
-            label3.Text = "DIEGO ENMANUEL ZEPEDA RENDEROS USSS017922";
+            label3.Text = "DIEGO ENMANUEL ZEPEDA RENDEROS USSS01792";
             label4.Text = "EDWIN EMERSON LÓPEZ HERNÁNDEZ USSS017222";
             label5.Text = "HENRY ANDERSON SÁNCHEZ CORTEZ USSS030722";
             label6.Text = "FERNANDO JOSÉ LÓPEZ TORRES USTS002422";
 
-            label1.Visible = true;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
